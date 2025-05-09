@@ -1,0 +1,7 @@
+import cv2
+
+img = cv2.imread("dataset/asl_alphabet_train/A/image1.jpg")  # change to actual path
+if img is None:
+    print("Image not loaded!")
+else:
+    print("Image loaded successfully.")
